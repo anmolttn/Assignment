@@ -44,7 +44,4 @@ class Second: UIViewController {
     func popTheView(){
        self.navigationController?.popViewController(animated: true)
     }
-
-   
-
 }

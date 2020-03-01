@@ -21,6 +21,8 @@ class Fifth: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        print(First.name)
     }
 
     @IBAction func dismissTheView(_ sender: UIButton) {
@@ -30,6 +32,6 @@ class Fifth: UIViewController {
     func dismissView(){
         self.dismiss(animated: true, completion: nil)
     }
-
+    
 
 }
