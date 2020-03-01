@@ -13,6 +13,9 @@
 		26B143DB240C0D1F00E2FF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B143D9240C0D1F00E2FF45 /* Main.storyboard */; };
 		26B143DD240C0D2200E2FF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B143DC240C0D2200E2FF45 /* Assets.xcassets */; };
 		26B143E0240C0D2200E2FF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */; };
+		26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D87D6D240C38AE00735453 /* SignUpVC.swift */; };
+		26D87D70240C38FE00735453 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D87D6F240C38FE00735453 /* HomeVC.swift */; };
+		26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D87D71240C392A00735453 /* SegmentControlVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		26B143DC240C0D2200E2FF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26B143DF240C0D2200E2FF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26B143E1240C0D2200E2FF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D87D6D240C38AE00735453 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		26D87D6F240C38FE00735453 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		26D87D71240C392A00735453 /* SegmentControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
+				26D87D6D240C38AE00735453 /* SignUpVC.swift */,
+				26D87D6F240C38FE00735453 /* HomeVC.swift */,
+				26D87D71240C392A00735453 /* SegmentControlVC.swift */,
 			);
 			path = ProjectThree;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */,
+				26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */,
+				26D87D70240C38FE00735453 /* HomeVC.swift in Sources */,
 				26B143D8240C0D1F00E2FF45 /* ViewController.swift in Sources */,
 				26B143D4240C0D1F00E2FF45 /* AppDelegate.swift in Sources */,
 				26B143D6240C0D1F00E2FF45 /* SceneDelegate.swift in Sources */,
