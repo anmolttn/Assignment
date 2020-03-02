@@ -16,7 +16,7 @@ class Third: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Third View"
-        self.customizenavBar()
+        self.customizeNavBar()
 
     }
     
@@ -57,7 +57,7 @@ class Third: UIViewController {
     }
     
     //customize nav bar
-    func customizenavBar(){
+    func customizeNavBar(){
              self.navigationController?.navigationBar.barTintColor = UIColor.systemGray
              self.navigationController?.navigationBar.tintColor = UIColor.black
              self.navigationController!.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
