@@ -15,23 +15,19 @@ class Fifth: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Fifth View"
-
-        // Do any additional setup after loading the view.
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        print(First.name)
     }
-
+    //function of the dismiss butto
     @IBAction func dismissTheView(_ sender: UIButton) {
         dismissView()
     }
     
+    //function to dismiss the view
     func dismissView(){
         self.dismiss(animated: true, completion: nil)
     }
-    
-
 }

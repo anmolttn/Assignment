@@ -16,31 +16,30 @@ class Second: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Second View"
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
     
-    
+    //action function of the next button
     @IBAction func nextButttonToThirdView(_ sender : UIButton){
         pushToThirdView()
     }
     
-    
+    //action function of the back button
     @IBAction func backToTheView(_ sender : UIButton){
         popTheView()
     }
     
+    //function to push the view controller
     func pushToThirdView(){
       let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let vc2 = storyBoard.instantiateViewController(withIdentifier: "Third")
         self.navigationController!.pushViewController(vc2, animated: true)
     }
     
-    
+    //function to pop the view controller
     func popTheView(){
        self.navigationController?.popViewController(animated: true)
     }

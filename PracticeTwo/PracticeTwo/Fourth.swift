@@ -18,8 +18,16 @@ class Fourth: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Fourth View"
-
-        // Do any additional setup after loading the view.
+        
+        // Access a string value from ViewController 1 to last view controller in the navigation stack without transferring the value during pushing the view controllers.
+        
+        if let vc = (navigationController?.viewControllers){
+                     for index in vc{
+                         if let str = index as? First{
+                             print(str.name)
+                             }
+                         }
+                     }
     }
     
 
@@ -27,30 +35,30 @@ class Fourth: UIViewController {
         super.viewWillAppear(animated)
     }
     
-    
+    //action function of present button
     @IBAction func presentTheView(_ sender: UIButton) {
         presentView()
     }
  
-    
+    //action function of the back button
     @IBAction func popTheView(_ sender: UIButton) {
         popThisView()
     }
     
-    
+    //action function of particular button
     @IBAction func goToParticularView(_ sender: UIButton) {
         particularView()
     }
     
     
-    
+    //function to present the view controoler
     func presentView(){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyBoard.instantiateViewController(withIdentifier: "Fifth")
         self.navigationController?.present(vc, animated: true, completion: nil)
     }
     
-    
+    //function to go to a particular view controller
     func particularView(){
         let vc = (navigationController?.viewControllers)
         for index in vc!{
@@ -60,6 +68,7 @@ class Fourth: UIViewController {
         }
     }
     
+    //function to pop the view Controller
     func popThisView(){
        self.navigationController?.popViewController(animated: true)
     }
