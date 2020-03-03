@@ -16,7 +16,6 @@ class SegmentControlVC: UIViewController {
         super.viewDidLoad()
 
         self.title = "SEGMENT CONTROL"
-        // Do any additional setup after loading the view.
     }
     
 
@@ -25,13 +24,13 @@ class SegmentControlVC: UIViewController {
         
     }
 
+    //action of segment control
     @IBAction func segmentButtonClicked(_ sender: UISegmentedControl) {
-        
         segmentOptionClicked()
     }
     
+    //function that perform operation of segment control
     func segmentOptionClicked(){
-            
         switch segmentOutlet.selectedSegmentIndex {
         case 0:
             textFieldViewOutlet.text = "Employer Segment Selected"

@@ -23,9 +23,7 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
     let dobObj = UIDatePicker()
     let imagePickObj = UIImagePickerController()
     
-    //variable of birthPlacePicekrView
-    
-   // var customBirthPicker = UIPickerView(frame: CGRect(x: 0, y: 0, width: 300, height: 200))
+    //array that store the data of birthplace
     var customBirthPickerArray = ["Delhi","Noida","Mumbai","Lucknow","Bijnor","Chennai","Agra"]
     
     override func viewDidLoad() {
@@ -34,15 +32,14 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
         
         self.birthPlacePickerView.delegate = self
         self.birthPlacePickerView.dataSource = self
-       // self.birthPlacePickerView = customBirthPicker
-        
         
         imagePickObj.delegate = self
+        
         //make the image view round
         imagePick.layer.cornerRadius = imagePick.frame.height/2
         imagePick.clipsToBounds = true
         
-        
+        //call of date picker function
         choosedob()
     }
     
@@ -89,11 +86,6 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
         return customBirthPickerArray[row]
     }
 
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-        birthPlacePickerView.resignFirstResponder()
-    }
-
     
     //function of date picker
     func choosedob(){
@@ -111,14 +103,15 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
     }
     
     
+    //formating the DatePicker
     @objc func doneButtonClicked() {
-        //formating the DatePicker
         let formatter = DateFormatter()
         formatter.dateStyle = .long
         formatter.timeStyle = .none
         dobPickerView.text = formatter.string(from: dobObj.date)
         self.view.endEditing(true)
     }
+    
     
     //action of switch
    
@@ -137,6 +130,7 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
     @IBAction func signUpClicked(_ sender: Any) {
         pushSignUpView()
     }
+    
     
     //function to push the view controller
     func pushSignUpView(){

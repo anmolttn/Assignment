@@ -19,6 +19,7 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
         self.title = "HOME"
         
+        //textfield view border
         textFieldViewOutlet.layer.borderWidth = 3
         textFieldViewOutlet.layer.borderColor = UIColor.systemPink.cgColor
         
