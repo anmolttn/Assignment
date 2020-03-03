@@ -8,25 +8,27 @@
 
 import UIKit
 
-class HomeVC: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate  {
+class HomeVC: UIViewController {
     
     @IBOutlet weak var imageTwo: UIImageView!
+    @IBOutlet weak var textFieldViewOutlet: UITextView!
     
     var pushedImage : UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.title = "HOME"
         
-        //fetched image from SignUp View
+        textFieldViewOutlet.layer.borderWidth = 3
+        textFieldViewOutlet.layer.borderColor = UIColor.systemPink.cgColor
+        
         imageTwo.image = pushedImage
         
         
         //make the image view round
-        // imagePickObj.delegate = self
         imageTwo.layer.cornerRadius = imageTwo.frame.height/2
         imageTwo.clipsToBounds = true
+        
     }
     
 
@@ -34,6 +36,8 @@ class HomeVC: UIViewController,UIImagePickerControllerDelegate,UINavigationContr
         super.viewWillAppear(animated)
         
     }
+    
+    //action of next button
     @IBAction func nextButtonClicked(_ sender: Any) {
         pushSignUpView()
     }

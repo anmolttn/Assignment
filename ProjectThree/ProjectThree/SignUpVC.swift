@@ -8,8 +8,9 @@
 
 import UIKit
 
-class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
-
+class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
     
     @IBOutlet weak var imagePick: UIImageView!
     @IBOutlet weak var uploadButton: UIButton!
@@ -22,13 +23,22 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
     let dobObj = UIDatePicker()
     let imagePickObj = UIImagePickerController()
     
+    //variable of birthPlacePicekrView
+    
+   // var customBirthPicker = UIPickerView(frame: CGRect(x: 0, y: 0, width: 300, height: 200))
+    var customBirthPickerArray = ["Delhi","Noida","Mumbai","Lucknow","Bijnor","Chennai","Agra"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "SIGN UP"
-       
         
-        //make the image view round
+        self.birthPlacePickerView.delegate = self
+        self.birthPlacePickerView.dataSource = self
+       // self.birthPlacePickerView = customBirthPicker
+        
+        
         imagePickObj.delegate = self
+        //make the image view round
         imagePick.layer.cornerRadius = imagePick.frame.height/2
         imagePick.clipsToBounds = true
         
@@ -66,6 +76,24 @@ class SignUpVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }
+    
+    //birth place picker view functions
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return customBirthPickerArray.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return customBirthPickerArray[row]
+    }
+
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        birthPlacePickerView.resignFirstResponder()
+    }
+
     
     //function of date picker
     func choosedob(){
