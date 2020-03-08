@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		269B655924111A530003AD84 /* TabBarProgramatically2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgramatically2.swift; sourceTree = "<group>"; };
 		269B655B241134E00003AD84 /* TabBarProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgrammatically.swift; sourceTree = "<group>"; };
-		26B143D0240C0D1F00E2FF45 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B143D0240C0D1F00E2FF45 /* ProjectThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B143D3240C0D1F00E2FF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B143D5240C0D1F00E2FF45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		26B143D7240C0D1F00E2FF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		26B143C7240C0D1F00E2FF45 = {
 			isa = PBXGroup;
 			children = (
-				26B143D2240C0D1F00E2FF45 /* MianApp */,
+				26B143D2240C0D1F00E2FF45 /* ProjectThree */,
 				26B143D1240C0D1F00E2FF45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +77,12 @@
 		26B143D1240C0D1F00E2FF45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26B143D0240C0D1F00E2FF45 /* MainApp.app */,
+				26B143D0240C0D1F00E2FF45 /* ProjectThree.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26B143D2240C0D1F00E2FF45 /* MianApp */ = {
+		26B143D2240C0D1F00E2FF45 /* ProjectThree */ = {
 			isa = PBXGroup;
 			children = (
 				269B6556241119B00003AD84 /* TabBarProgramatically */,
@@ -95,15 +95,15 @@
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
 			);
-			path = MianApp;
+			path = ProjectThree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26B143CF240C0D1F00E2FF45 /* MainApp */ = {
+		26B143CF240C0D1F00E2FF45 /* ProjectThree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "MainApp" */;
+			buildConfigurationList = 26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "ProjectThree" */;
 			buildPhases = (
 				26B143CC240C0D1F00E2FF45 /* Sources */,
 				26B143CD240C0D1F00E2FF45 /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = MainApp;
+			name = ProjectThree;
 			productName = ProjectThree;
-			productReference = 26B143D0240C0D1F00E2FF45 /* MainApp.app */;
+			productReference = 26B143D0240C0D1F00E2FF45 /* ProjectThree.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "MainApp" */;
+			buildConfigurationList = 26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "ProjectThree" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26B143CF240C0D1F00E2FF45 /* MainApp */,
+				26B143CF240C0D1F00E2FF45 /* ProjectThree */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "MainApp" */ = {
+		26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "ProjectThree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26B143E2240C0D2200E2FF45 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "MainApp" */ = {
+		26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "ProjectThree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26B143E5240C0D2200E2FF45 /* Debug */,

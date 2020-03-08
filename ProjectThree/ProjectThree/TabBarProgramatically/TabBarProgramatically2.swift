@@ -17,8 +17,6 @@ class TabBarProgramatically2: UIViewController {
     }
     
     func createTabBarProgrammatically(){
-        
-
             self.view.backgroundColor = .brown
             let bar = UITabBar(frame: CGRect(x: 0, y: self.view.frame.height-150, width: self.view.frame.width, height: 100))
             self.view.addSubview(bar)
@@ -30,6 +28,6 @@ class TabBarProgramatically2: UIViewController {
            
             bar.setItems([itemOne,itemTwo,itemThree,itemFour], animated: true)
             bar.backgroundColor = .black
-           tabBarItem.badgeColor = .red
+            tabBarItem.badgeColor = .red
        }
 }
