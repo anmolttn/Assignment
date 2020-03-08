@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B655924111A530003AD84 /* TabBarProgramatically2.swift */; };
+		269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B655B241134E00003AD84 /* TabBarProgrammatically.swift */; };
 		26B143D4240C0D1F00E2FF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B143D3240C0D1F00E2FF45 /* AppDelegate.swift */; };
 		26B143D6240C0D1F00E2FF45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B143D5240C0D1F00E2FF45 /* SceneDelegate.swift */; };
 		26B143D8240C0D1F00E2FF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B143D7240C0D1F00E2FF45 /* ViewController.swift */; };
@@ -19,7 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26B143D0240C0D1F00E2FF45 /* ProjectThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269B655924111A530003AD84 /* TabBarProgramatically2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgramatically2.swift; sourceTree = "<group>"; };
+		269B655B241134E00003AD84 /* TabBarProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgrammatically.swift; sourceTree = "<group>"; };
+		26B143D0240C0D1F00E2FF45 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B143D3240C0D1F00E2FF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B143D5240C0D1F00E2FF45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		26B143D7240C0D1F00E2FF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +47,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		269B6555241119200003AD84 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				26D87D6D240C38AE00735453 /* SignUpVC.swift */,
+				26D87D6F240C38FE00735453 /* HomeVC.swift */,
+				26D87D71240C392A00735453 /* SegmentControlVC.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		269B6556241119B00003AD84 /* TabBarProgramatically */ = {
+			isa = PBXGroup;
+			children = (
+				269B655B241134E00003AD84 /* TabBarProgrammatically.swift */,
+				269B655924111A530003AD84 /* TabBarProgramatically2.swift */,
+			);
+			path = TabBarProgramatically;
+			sourceTree = "<group>";
+		};
 		26B143C7240C0D1F00E2FF45 = {
 			isa = PBXGroup;
 			children = (
-				26B143D2240C0D1F00E2FF45 /* ProjectThree */,
+				26B143D2240C0D1F00E2FF45 /* MianApp */,
 				26B143D1240C0D1F00E2FF45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +77,16 @@
 		26B143D1240C0D1F00E2FF45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26B143D0240C0D1F00E2FF45 /* ProjectThree.app */,
+				26B143D0240C0D1F00E2FF45 /* MainApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26B143D2240C0D1F00E2FF45 /* ProjectThree */ = {
+		26B143D2240C0D1F00E2FF45 /* MianApp */ = {
 			isa = PBXGroup;
 			children = (
+				269B6556241119B00003AD84 /* TabBarProgramatically */,
+				269B6555241119200003AD84 /* UIElements */,
 				26B143D3240C0D1F00E2FF45 /* AppDelegate.swift */,
 				26B143D5240C0D1F00E2FF45 /* SceneDelegate.swift */,
 				26B143D7240C0D1F00E2FF45 /* ViewController.swift */,
@@ -69,19 +94,16 @@
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
-				26D87D6D240C38AE00735453 /* SignUpVC.swift */,
-				26D87D6F240C38FE00735453 /* HomeVC.swift */,
-				26D87D71240C392A00735453 /* SegmentControlVC.swift */,
 			);
-			path = ProjectThree;
+			path = MianApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26B143CF240C0D1F00E2FF45 /* ProjectThree */ = {
+		26B143CF240C0D1F00E2FF45 /* MainApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "ProjectThree" */;
+			buildConfigurationList = 26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "MainApp" */;
 			buildPhases = (
 				26B143CC240C0D1F00E2FF45 /* Sources */,
 				26B143CD240C0D1F00E2FF45 /* Frameworks */,
@@ -91,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = ProjectThree;
+			name = MainApp;
 			productName = ProjectThree;
-			productReference = 26B143D0240C0D1F00E2FF45 /* ProjectThree.app */;
+			productReference = 26B143D0240C0D1F00E2FF45 /* MainApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "ProjectThree" */;
+			buildConfigurationList = 26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "MainApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26B143CF240C0D1F00E2FF45 /* ProjectThree */,
+				26B143CF240C0D1F00E2FF45 /* MainApp */,
 			);
 		};
 /* End PBXProject section */
@@ -147,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */,
 				26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */,
 				26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */,
+				269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */,
 				26D87D70240C38FE00735453 /* HomeVC.swift in Sources */,
 				26B143D8240C0D1F00E2FF45 /* ViewController.swift in Sources */,
 				26B143D4240C0D1F00E2FF45 /* AppDelegate.swift in Sources */,
@@ -333,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "ProjectThree" */ = {
+		26B143CB240C0D1F00E2FF45 /* Build configuration list for PBXProject "MainApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26B143E2240C0D2200E2FF45 /* Debug */,
@@ -342,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "ProjectThree" */ = {
+		26B143E4240C0D2200E2FF45 /* Build configuration list for PBXNativeTarget "MainApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26B143E5240C0D2200E2FF45 /* Debug */,
