@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B655924111A530003AD84 /* TabBarProgramatically2.swift */; };
 		269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B655B241134E00003AD84 /* TabBarProgrammatically.swift */; };
+		26A0C93424194A94003DF561 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0C93324194A94003DF561 /* EmojiViewController.swift */; };
+		26A0C93624194E61003DF561 /* SizeClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0C93524194E61003DF561 /* SizeClassesViewController.swift */; };
 		26A697D424156144005E1392 /* RoundcornerAndShadowimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A697D324156144005E1392 /* RoundcornerAndShadowimage.swift */; };
 		26A6981524156E4D005E1392 /* FirstPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6981424156E4D005E1392 /* FirstPageController.swift */; };
 		26A6981724156E6E005E1392 /* SecondPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6981624156E6E005E1392 /* SecondPageController.swift */; };
@@ -27,11 +29,15 @@
 		26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D87D6D240C38AE00735453 /* SignUpVC.swift */; };
 		26D87D70240C38FE00735453 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D87D6F240C38FE00735453 /* HomeVC.swift */; };
 		26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D87D71240C392A00735453 /* SegmentControlVC.swift */; };
+		26FB1FEA2418FCA50096EEEC /* CalculatorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB1FE92418FCA50096EEEC /* CalculatorUI.swift */; };
+		26FB1FED2418FEC00096EEEC /* ImageViewAspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB1FEC2418FEC00096EEEC /* ImageViewAspectRatio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		269B655924111A530003AD84 /* TabBarProgramatically2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgramatically2.swift; sourceTree = "<group>"; };
 		269B655B241134E00003AD84 /* TabBarProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgrammatically.swift; sourceTree = "<group>"; };
+		26A0C93324194A94003DF561 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		26A0C93524194E61003DF561 /* SizeClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesViewController.swift; sourceTree = "<group>"; };
 		26A697D324156144005E1392 /* RoundcornerAndShadowimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundcornerAndShadowimage.swift; sourceTree = "<group>"; };
 		26A6981424156E4D005E1392 /* FirstPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageController.swift; sourceTree = "<group>"; };
 		26A6981624156E6E005E1392 /* SecondPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageController.swift; sourceTree = "<group>"; };
@@ -52,6 +58,8 @@
 		26D87D6D240C38AE00735453 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		26D87D6F240C38FE00735453 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		26D87D71240C392A00735453 /* SegmentControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlVC.swift; sourceTree = "<group>"; };
+		26FB1FE92418FCA50096EEEC /* CalculatorUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUI.swift; sourceTree = "<group>"; };
+		26FB1FEC2418FEC00096EEEC /* ImageViewAspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewAspectRatio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,12 +133,24 @@
 				26A6982224163EBA005E1392 /* TableCellContent.xib */,
 				269B6555241119200003AD84 /* UIElements */,
 				269B6556241119B00003AD84 /* UIKitNestedController */,
+				26FB1FEB2418FCB10096EEEC /* SizeClassesAndAutoLayout */,
 				26B143D9240C0D1F00E2FF45 /* Main.storyboard */,
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
 			);
 			path = ProjectThree;
+			sourceTree = "<group>";
+		};
+		26FB1FEB2418FCB10096EEEC /* SizeClassesAndAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				26A0C93524194E61003DF561 /* SizeClassesViewController.swift */,
+				26FB1FEC2418FEC00096EEEC /* ImageViewAspectRatio.swift */,
+				26FB1FE92418FCA50096EEEC /* CalculatorUI.swift */,
+				26A0C93324194A94003DF561 /* EmojiViewController.swift */,
+			);
+			path = SizeClassesAndAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,13 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A0C93424194A94003DF561 /* EmojiViewController.swift in Sources */,
 				26A6982024163904005E1392 /* InitialViewController.swift in Sources */,
 				26A6981924156E84005E1392 /* ThirdPageController.swift in Sources */,
+				26FB1FED2418FEC00096EEEC /* ImageViewAspectRatio.swift in Sources */,
+				26FB1FEA2418FCA50096EEEC /* CalculatorUI.swift in Sources */,
 				26A6981724156E6E005E1392 /* SecondPageController.swift in Sources */,
 				269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */,
 				26A6982324163EBA005E1392 /* TableCellContent.swift in Sources */,
 				26A6981524156E4D005E1392 /* FirstPageController.swift in Sources */,
 				26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */,
+				26A0C93624194E61003DF561 /* SizeClassesViewController.swift in Sources */,
 				26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */,
 				26A6981D24156EBA005E1392 /* FifthPageController.swift in Sources */,
 				269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */,
