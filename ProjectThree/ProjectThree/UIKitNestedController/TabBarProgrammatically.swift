@@ -16,6 +16,8 @@ class TabBarProgrammatically: UIViewController {
     }
     let storyBoard = UIStoryboard(name: "Main", bundle: nil)
     
+    //Mark : - for the tab bar created by storyboard,make the initial view controller at UITabBarController
+    
     
     //button will refer to the view on which the tab bart is created progrmaticaaly
     @IBAction func tabBatton(_ sender: Any) {
