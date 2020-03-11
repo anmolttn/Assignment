@@ -14,7 +14,7 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     //array that show the content in table cell
-    var tableArray = ["UI Elements","UIkit Nested Elements"]
+    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +53,10 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
         }
         if indexPath.row == 1{
         let vc = storyBoard.instantiateViewController(identifier: "TabBarProgrammatically")
+        self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if indexPath.row == 2{
+        let vc = storyBoard.instantiateViewController(identifier: "SizeClassesViewController")
         self.navigationController?.pushViewController(vc, animated: true)
         }
     }
