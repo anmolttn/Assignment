@@ -12,6 +12,7 @@ class EmojiViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Emoji View Controller"
 
         // Do any additional setup after loading the view.
     }
