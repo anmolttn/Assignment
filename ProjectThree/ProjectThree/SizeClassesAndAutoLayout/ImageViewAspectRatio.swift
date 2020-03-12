@@ -18,6 +18,7 @@ class ImageViewAspectRatio: UIViewController {
         
     }
     
+    //function to make the image view round
     func makeImageViewRound(){
         imageOutletForRoundImage.layer.cornerRadius = imageOutletForRoundImage.frame.height/2
         imageOutletForRoundImage.contentMode = .scaleToFill
