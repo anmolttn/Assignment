@@ -289,6 +289,37 @@
             </objects>
             <point key="canvasLocation" x="-264" y="693"/>
         </scene>
+        <!--Main Table View Controller-->
+        <scene sceneID="4d5-Tk-nzZ">
+            <objects>
+                <viewController storyboardIdentifier="MainTableViewController" id="vlF-V3-ukK" customClass="MainTableViewController" customModule="ProjectThree" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WSe-V8-YO3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RcV-tC-uoz">
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0t6-6M-6Vk" firstAttribute="trailing" secondItem="RcV-tC-uoz" secondAttribute="trailing" id="UKh-ng-sGl"/>
+                            <constraint firstItem="RcV-tC-uoz" firstAttribute="leading" secondItem="0t6-6M-6Vk" secondAttribute="leading" id="UfZ-rA-wFF"/>
+                            <constraint firstItem="0t6-6M-6Vk" firstAttribute="bottom" secondItem="RcV-tC-uoz" secondAttribute="bottom" id="eqB-aN-1zs"/>
+                            <constraint firstItem="RcV-tC-uoz" firstAttribute="top" secondItem="0t6-6M-6Vk" secondAttribute="top" id="mEj-v2-Q8o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0t6-6M-6Vk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Mo7-ku-nLF"/>
+                    <connections>
+                        <outlet property="tabelViewOutlet" destination="RcV-tC-uoz" id="V3R-6c-GsN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SRZ-b0-t9s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778.39999999999998" y="1663.3004926108374"/>
+        </scene>
         <!--Image View Aspect Ratio-->
         <scene sceneID="aDE-Ke-enc">
             <objects>
@@ -1002,6 +1033,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NSG-iT-ZiU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1190.625" y="692.95774647887322"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="03V-Hb-TEo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e0d-ie-ILy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iCq-SJ-wbd">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vlF-V3-ukK" kind="relationship" relationship="rootViewController" id="OYG-3s-i91"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PH5-8x-Lsc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="1663.3004926108374"/>
         </scene>
     </scenes>
     <resources>
