@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266863EB241A3ED200DCE794 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863EA241A3ED200DCE794 /* MainTableViewController.swift */; };
+		266863EE241A3F7A00DCE794 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863EC241A3F7A00DCE794 /* CustomTableViewCell.swift */; };
+		266863EF241A3F7A00DCE794 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266863ED241A3F7A00DCE794 /* CustomTableViewCell.xib */; };
+		266863F2241A3FA000DCE794 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863F0241A3FA000DCE794 /* CustomCollectionViewCell.swift */; };
+		266863F3241A3FA000DCE794 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266863F1241A3FA000DCE794 /* CustomCollectionViewCell.xib */; };
 		269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B655924111A530003AD84 /* TabBarProgramatically2.swift */; };
 		269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B655B241134E00003AD84 /* TabBarProgrammatically.swift */; };
 		26A0C93424194A94003DF561 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0C93324194A94003DF561 /* EmojiViewController.swift */; };
@@ -34,6 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		266863EA241A3ED200DCE794 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		266863EC241A3F7A00DCE794 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		266863ED241A3F7A00DCE794 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		266863F0241A3FA000DCE794 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		266863F1241A3FA000DCE794 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		269B655924111A530003AD84 /* TabBarProgramatically2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgramatically2.swift; sourceTree = "<group>"; };
 		269B655B241134E00003AD84 /* TabBarProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProgrammatically.swift; sourceTree = "<group>"; };
 		26A0C93324194A94003DF561 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +83,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		266863E9241A3D3500DCE794 /* UIElements Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				266863EA241A3ED200DCE794 /* MainTableViewController.swift */,
+				266863EC241A3F7A00DCE794 /* CustomTableViewCell.swift */,
+				266863ED241A3F7A00DCE794 /* CustomTableViewCell.xib */,
+				266863F0241A3FA000DCE794 /* CustomCollectionViewCell.swift */,
+				266863F1241A3FA000DCE794 /* CustomCollectionViewCell.xib */,
+			);
+			path = "UIElements Scroll View";
+			sourceTree = "<group>";
+		};
 		269B6555241119200003AD84 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +156,7 @@
 				269B6555241119200003AD84 /* UIElements */,
 				269B6556241119B00003AD84 /* UIKitNestedController */,
 				26FB1FEB2418FCB10096EEEC /* SizeClassesAndAutoLayout */,
+				266863E9241A3D3500DCE794 /* UIElements Scroll View */,
 				26B143D9240C0D1F00E2FF45 /* Main.storyboard */,
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
@@ -212,8 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A6982424163EBA005E1392 /* TableCellContent.xib in Resources */,
+				266863F3241A3FA000DCE794 /* CustomCollectionViewCell.xib in Resources */,
 				26B143E0240C0D2200E2FF45 /* LaunchScreen.storyboard in Resources */,
 				26B143DD240C0D2200E2FF45 /* Assets.xcassets in Resources */,
+				266863EF241A3F7A00DCE794 /* CustomTableViewCell.xib in Resources */,
 				26B143DB240C0D1F00E2FF45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +252,7 @@
 			files = (
 				26A0C93424194A94003DF561 /* EmojiViewController.swift in Sources */,
 				26A6982024163904005E1392 /* InitialViewController.swift in Sources */,
+				266863EE241A3F7A00DCE794 /* CustomTableViewCell.swift in Sources */,
 				26A6981924156E84005E1392 /* ThirdPageController.swift in Sources */,
 				26FB1FED2418FEC00096EEEC /* ImageViewAspectRatio.swift in Sources */,
 				26FB1FEA2418FCA50096EEEC /* CalculatorUI.swift in Sources */,
@@ -238,8 +264,10 @@
 				26A0C93624194E61003DF561 /* SizeClassesViewController.swift in Sources */,
 				26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */,
 				26A6981D24156EBA005E1392 /* FifthPageController.swift in Sources */,
+				266863EB241A3ED200DCE794 /* MainTableViewController.swift in Sources */,
 				269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */,
 				26A6981B24156EA1005E1392 /* FourthPageController.swift in Sources */,
+				266863F2241A3FA000DCE794 /* CustomCollectionViewCell.swift in Sources */,
 				26D87D70240C38FE00735453 /* HomeVC.swift in Sources */,
 				26B143D8240C0D1F00E2FF45 /* ViewController.swift in Sources */,
 				26B143D4240C0D1F00E2FF45 /* AppDelegate.swift in Sources */,

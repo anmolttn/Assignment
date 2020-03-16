@@ -4,7 +4,7 @@
 //
 //  Created by Anmol Chauhan on 09/03/20.
 //  Copyright © 2020 Anmol Chauhan. All rights reserved.
-//
+// Ankit Nigam
 
 import UIKit
 
@@ -14,7 +14,7 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     //array that show the content in table cell
-    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout"]
+    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout","UI Elments Scroll View"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +57,10 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
         }
         if indexPath.row == 2{
         let vc = storyBoard.instantiateViewController(identifier: "SizeClassesViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if indexPath.row == 3{
+        let vc = storyBoard.instantiateViewController(identifier: "MainTableViewController")
         self.navigationController?.pushViewController(vc, animated: true)
         }
     }
