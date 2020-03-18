@@ -20,6 +20,7 @@ class CustomTableViewCell: UITableViewCell,UICollectionViewDelegate,UICollection
         collectionViewOutlet.delegate = self
         collectionViewOutlet.dataSource = self
         
+        //register nib file of collection view cwll
         let nib = UINib.init(nibName: "CustomCollectionViewCell", bundle: nil)
         collectionViewOutlet.register(nib, forCellWithReuseIdentifier: "customCollectionViewCell")
         
