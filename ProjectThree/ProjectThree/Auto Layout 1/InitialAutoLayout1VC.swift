@@ -17,6 +17,12 @@ class InitialAutoLayout1VC: UIViewController {
     
     let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
     
+    @IBAction func customStackButton(_ sender: Any) {
+        
+        let vc = storyBoard.instantiateViewController(withIdentifier: "CustomStackViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
     @IBAction func calculatorButtonOutlet(_ sender: Any) {
         
         let vc = storyBoard.instantiateViewController(withIdentifier: "CalculatorStackView")
