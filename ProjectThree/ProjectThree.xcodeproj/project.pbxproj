@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260ACF832455F13E00D401CC /* CustomStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACF822455F13E00D401CC /* CustomStackViewController.swift */; };
 		26137095241F9989004F37DB /* AutoLayoutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26137094241F9989004F37DB /* AutoLayoutImageVC.swift */; };
 		2661C608241F6A55002B8E84 /* InitialAutoLayout1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */; };
 		2661C60A241F6A70002B8E84 /* CalculatorStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661C609241F6A70002B8E84 /* CalculatorStackView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260ACF822455F13E00D401CC /* CustomStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackViewController.swift; sourceTree = "<group>"; };
 		26137094241F9989004F37DB /* AutoLayoutImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutImageVC.swift; sourceTree = "<group>"; };
 		2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialAutoLayout1VC.swift; sourceTree = "<group>"; };
 		2661C609241F6A70002B8E84 /* CalculatorStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStackView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */,
+				260ACF822455F13E00D401CC /* CustomStackViewController.swift */,
 				2661C609241F6A70002B8E84 /* CalculatorStackView.swift */,
 				26137094241F9989004F37DB /* AutoLayoutImageVC.swift */,
 				26624949241F880E00A1A99B /* ScrollViewVC.swift */,
@@ -169,6 +172,7 @@
 				26B143D3240C0D1F00E2FF45 /* AppDelegate.swift */,
 				26B143D5240C0D1F00E2FF45 /* SceneDelegate.swift */,
 				26B143D7240C0D1F00E2FF45 /* ViewController.swift */,
+				26B143D9240C0D1F00E2FF45 /* Main.storyboard */,
 				26A6981F24163904005E1392 /* InitialViewController.swift */,
 				26A6982124163EBA005E1392 /* TableCellContent.swift */,
 				26A6982224163EBA005E1392 /* TableCellContent.xib */,
@@ -177,7 +181,6 @@
 				26FB1FEB2418FCB10096EEEC /* SizeClassesAndAutoLayout */,
 				266863E9241A3D3500DCE794 /* UIElements Scroll View */,
 				2661C60B241F6A7D002B8E84 /* Auto Layout 1 */,
-				26B143D9240C0D1F00E2FF45 /* Main.storyboard */,
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
@@ -280,6 +283,7 @@
 				2661C60A241F6A70002B8E84 /* CalculatorStackView.swift in Sources */,
 				26A6981724156E6E005E1392 /* SecondPageController.swift in Sources */,
 				269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */,
+				260ACF832455F13E00D401CC /* CustomStackViewController.swift in Sources */,
 				2661C608241F6A55002B8E84 /* InitialAutoLayout1VC.swift in Sources */,
 				26A6982324163EBA005E1392 /* TableCellContent.swift in Sources */,
 				26A6981524156E4D005E1392 /* FirstPageController.swift in Sources */,

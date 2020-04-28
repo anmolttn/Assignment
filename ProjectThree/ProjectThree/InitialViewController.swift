@@ -64,8 +64,8 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
         self.navigationController?.pushViewController(vc, animated: true)
         }
         if indexPath.row == 4{
-               let vc = storyBoard.instantiateViewController(identifier: "InitialAutoLayout1VC")
-               self.navigationController?.pushViewController(vc, animated: true)
+        let vc = storyBoard.instantiateViewController(identifier: "InitialAutoLayout1VC")
+        self.navigationController?.pushViewController(vc, animated: true)
         }
     }
 }
