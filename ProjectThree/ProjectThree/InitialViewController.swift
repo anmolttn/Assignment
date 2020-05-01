@@ -14,7 +14,7 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     //array that show the content in table cell
-    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout","UI Elments Scroll View"]
+    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout","UI Elments Scroll View","Auto Layout 1"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +60,11 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
         self.navigationController?.pushViewController(vc, animated: true)
         }
         if indexPath.row == 3{
-        let vc = storyBoard.instantiateViewController(identifier: "MainTableViewController")
+        let vc = storyBoard.instantiateViewController(identifier: "FirstViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if indexPath.row == 4{
+        let vc = storyBoard.instantiateViewController(identifier: "InitialAutoLayout1VC")
         self.navigationController?.pushViewController(vc, animated: true)
         }
     }

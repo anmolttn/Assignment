@@ -8,8 +8,9 @@
 
 import UIKit
 
-class MainTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class TableVCForCollectionCell: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
+    //header title array
     var sectionHeader = ["Action","Drama","Science fiction","Kids","Horror"]
 
     @IBOutlet weak var tabelViewOutlet: UITableView!
@@ -20,10 +21,11 @@ class MainTableViewController: UIViewController,UITableViewDelegate,UITableViewD
         tabelViewOutlet.delegate = self
         tabelViewOutlet.dataSource = self
         
-        
+        //register nib file of tabel view cell
         let nib = UINib.init(nibName: "CustomTableViewCell", bundle: nil)
         tabelViewOutlet.register(nib, forCellReuseIdentifier: "customTableViewCell")
     }
+    
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return sectionHeader[section]

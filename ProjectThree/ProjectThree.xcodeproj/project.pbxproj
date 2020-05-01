@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		266863EB241A3ED200DCE794 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863EA241A3ED200DCE794 /* MainTableViewController.swift */; };
+		260ACF832455F13E00D401CC /* CustomStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACF822455F13E00D401CC /* CustomStackViewController.swift */; };
+		26137095241F9989004F37DB /* AutoLayoutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26137094241F9989004F37DB /* AutoLayoutImageVC.swift */; };
+		2635C75E2459A4B900799AAF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C75D2459A4B900799AAF /* FirstViewController.swift */; };
+		2635C7602459AF1800799AAF /* DataDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C75F2459AF1800799AAF /* DataDetailsViewController.swift */; };
+		2635C7622459AF4E00799AAF /* DataFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C7612459AF4E00799AAF /* DataFormViewController.swift */; };
+		2635C7652459CB9700799AAF /* DataDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C7632459CB9700799AAF /* DataDetailsCell.swift */; };
+		2635C7662459CB9700799AAF /* DataDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2635C7642459CB9700799AAF /* DataDetailsCell.xib */; };
+		2661C608241F6A55002B8E84 /* InitialAutoLayout1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */; };
+		2661C60A241F6A70002B8E84 /* CalculatorStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661C609241F6A70002B8E84 /* CalculatorStackView.swift */; };
+		2662494A241F880E00A1A99B /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26624949241F880E00A1A99B /* ScrollViewVC.swift */; };
+		266863EB241A3ED200DCE794 /* TableVCForCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863EA241A3ED200DCE794 /* TableVCForCollectionCell.swift */; };
 		266863EE241A3F7A00DCE794 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863EC241A3F7A00DCE794 /* CustomTableViewCell.swift */; };
 		266863EF241A3F7A00DCE794 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266863ED241A3F7A00DCE794 /* CustomTableViewCell.xib */; };
 		266863F2241A3FA000DCE794 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266863F0241A3FA000DCE794 /* CustomCollectionViewCell.swift */; };
@@ -39,7 +49,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		266863EA241A3ED200DCE794 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		260ACF822455F13E00D401CC /* CustomStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackViewController.swift; sourceTree = "<group>"; };
+		26137094241F9989004F37DB /* AutoLayoutImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutImageVC.swift; sourceTree = "<group>"; };
+		2635C75D2459A4B900799AAF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2635C75F2459AF1800799AAF /* DataDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailsViewController.swift; sourceTree = "<group>"; };
+		2635C7612459AF4E00799AAF /* DataFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormViewController.swift; sourceTree = "<group>"; };
+		2635C7632459CB9700799AAF /* DataDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailsCell.swift; sourceTree = "<group>"; };
+		2635C7642459CB9700799AAF /* DataDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataDetailsCell.xib; sourceTree = "<group>"; };
+		2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialAutoLayout1VC.swift; sourceTree = "<group>"; };
+		2661C609241F6A70002B8E84 /* CalculatorStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStackView.swift; sourceTree = "<group>"; };
+		26624949241F880E00A1A99B /* ScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
+		266863EA241A3ED200DCE794 /* TableVCForCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVCForCollectionCell.swift; sourceTree = "<group>"; };
 		266863EC241A3F7A00DCE794 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		266863ED241A3F7A00DCE794 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		266863F0241A3FA000DCE794 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -83,10 +103,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2661C60B241F6A7D002B8E84 /* Auto Layout 1 */ = {
+			isa = PBXGroup;
+			children = (
+				2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */,
+				260ACF822455F13E00D401CC /* CustomStackViewController.swift */,
+				2661C609241F6A70002B8E84 /* CalculatorStackView.swift */,
+				26137094241F9989004F37DB /* AutoLayoutImageVC.swift */,
+				26624949241F880E00A1A99B /* ScrollViewVC.swift */,
+			);
+			path = "Auto Layout 1";
+			sourceTree = "<group>";
+		};
 		266863E9241A3D3500DCE794 /* UIElements Scroll View */ = {
 			isa = PBXGroup;
 			children = (
-				266863EA241A3ED200DCE794 /* MainTableViewController.swift */,
+				2635C75D2459A4B900799AAF /* FirstViewController.swift */,
+				2635C75F2459AF1800799AAF /* DataDetailsViewController.swift */,
+				2635C7612459AF4E00799AAF /* DataFormViewController.swift */,
+				2635C7632459CB9700799AAF /* DataDetailsCell.swift */,
+				2635C7642459CB9700799AAF /* DataDetailsCell.xib */,
+				266863EA241A3ED200DCE794 /* TableVCForCollectionCell.swift */,
 				266863EC241A3F7A00DCE794 /* CustomTableViewCell.swift */,
 				266863ED241A3F7A00DCE794 /* CustomTableViewCell.xib */,
 				266863F0241A3FA000DCE794 /* CustomCollectionViewCell.swift */,
@@ -150,6 +187,7 @@
 				26B143D3240C0D1F00E2FF45 /* AppDelegate.swift */,
 				26B143D5240C0D1F00E2FF45 /* SceneDelegate.swift */,
 				26B143D7240C0D1F00E2FF45 /* ViewController.swift */,
+				26B143D9240C0D1F00E2FF45 /* Main.storyboard */,
 				26A6981F24163904005E1392 /* InitialViewController.swift */,
 				26A6982124163EBA005E1392 /* TableCellContent.swift */,
 				26A6982224163EBA005E1392 /* TableCellContent.xib */,
@@ -157,7 +195,7 @@
 				269B6556241119B00003AD84 /* UIKitNestedController */,
 				26FB1FEB2418FCB10096EEEC /* SizeClassesAndAutoLayout */,
 				266863E9241A3D3500DCE794 /* UIElements Scroll View */,
-				26B143D9240C0D1F00E2FF45 /* Main.storyboard */,
+				2661C60B241F6A7D002B8E84 /* Auto Layout 1 */,
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
@@ -234,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2635C7662459CB9700799AAF /* DataDetailsCell.xib in Resources */,
 				26A6982424163EBA005E1392 /* TableCellContent.xib in Resources */,
 				266863F3241A3FA000DCE794 /* CustomCollectionViewCell.xib in Resources */,
 				26B143E0240C0D2200E2FF45 /* LaunchScreen.storyboard in Resources */,
@@ -251,23 +290,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A0C93424194A94003DF561 /* EmojiViewController.swift in Sources */,
+				2635C7622459AF4E00799AAF /* DataFormViewController.swift in Sources */,
+				26137095241F9989004F37DB /* AutoLayoutImageVC.swift in Sources */,
 				26A6982024163904005E1392 /* InitialViewController.swift in Sources */,
 				266863EE241A3F7A00DCE794 /* CustomTableViewCell.swift in Sources */,
 				26A6981924156E84005E1392 /* ThirdPageController.swift in Sources */,
 				26FB1FED2418FEC00096EEEC /* ImageViewAspectRatio.swift in Sources */,
 				26FB1FEA2418FCA50096EEEC /* CalculatorUI.swift in Sources */,
+				2661C60A241F6A70002B8E84 /* CalculatorStackView.swift in Sources */,
 				26A6981724156E6E005E1392 /* SecondPageController.swift in Sources */,
 				269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */,
+				2635C75E2459A4B900799AAF /* FirstViewController.swift in Sources */,
+				260ACF832455F13E00D401CC /* CustomStackViewController.swift in Sources */,
+				2661C608241F6A55002B8E84 /* InitialAutoLayout1VC.swift in Sources */,
 				26A6982324163EBA005E1392 /* TableCellContent.swift in Sources */,
 				26A6981524156E4D005E1392 /* FirstPageController.swift in Sources */,
+				2635C7652459CB9700799AAF /* DataDetailsCell.swift in Sources */,
 				26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */,
 				26A0C93624194E61003DF561 /* SizeClassesViewController.swift in Sources */,
+				2635C7602459AF1800799AAF /* DataDetailsViewController.swift in Sources */,
 				26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */,
 				26A6981D24156EBA005E1392 /* FifthPageController.swift in Sources */,
-				266863EB241A3ED200DCE794 /* MainTableViewController.swift in Sources */,
+				266863EB241A3ED200DCE794 /* TableVCForCollectionCell.swift in Sources */,
 				269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */,
 				26A6981B24156EA1005E1392 /* FourthPageController.swift in Sources */,
 				266863F2241A3FA000DCE794 /* CustomCollectionViewCell.swift in Sources */,
+				2662494A241F880E00A1A99B /* ScrollViewVC.swift in Sources */,
 				26D87D70240C38FE00735453 /* HomeVC.swift in Sources */,
 				26B143D8240C0D1F00E2FF45 /* ViewController.swift in Sources */,
 				26B143D4240C0D1F00E2FF45 /* AppDelegate.swift in Sources */,
