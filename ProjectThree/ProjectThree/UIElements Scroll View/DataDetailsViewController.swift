@@ -80,10 +80,9 @@ class DataDetailsViewController: UIViewController , AddDataProtocol {
         
         let count = dataArray.count
         let newData = (1...10).map { (void) -> DataDetails in
-            DataDetails(image: .checkmark, name: "Some", address: "Thing", age: "20", details: "Is not right")}
+            DataDetails(image: .checkmark, name: "John", address: "Mumbai", age: "30", details: "Hello  Hello ")}
         dataArray.append(contentsOf: newData)
         if dataArray.count > count {
-            
             dataTableOutlet.reloadData()
             loadMoreActivity.stopAnimating()
             dataTableOutlet.tableFooterView?.isHidden = true
@@ -96,7 +95,6 @@ class DataDetailsViewController: UIViewController , AddDataProtocol {
         let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = storyBoard.instantiateViewController(withIdentifier: "DataFormViewController") as! DataFormViewController
         vc.dataDelegate = self
-        //print("data--->>>>", dataArray[0].address)
         self.navigationController?.pushViewController(vc, animated: true)
 
         

@@ -22,6 +22,10 @@ class DataDetailsCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        
+        userImage.layer.cornerRadius = userImage.frame.size.height/2
+        userImage.contentMode = .scaleAspectFill
+
 
         // Configure the view for the selected state
     }
