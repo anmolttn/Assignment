@@ -60,7 +60,7 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
         self.navigationController?.pushViewController(vc, animated: true)
         }
         if indexPath.row == 3{
-        let vc = storyBoard.instantiateViewController(identifier: "MainTableViewController")
+        let vc = storyBoard.instantiateViewController(identifier: "FirstViewController")
         self.navigationController?.pushViewController(vc, animated: true)
         }
         if indexPath.row == 4{

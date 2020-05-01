@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class TableVCForCollectionCell: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     //header title array
     var sectionHeader = ["Action","Drama","Science fiction","Kids","Horror"]
