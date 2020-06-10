@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		260ACF832455F13E00D401CC /* CustomStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACF822455F13E00D401CC /* CustomStackViewController.swift */; };
 		26137095241F9989004F37DB /* AutoLayoutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26137094241F9989004F37DB /* AutoLayoutImageVC.swift */; };
+		261A29DF24915948002B8AD3 /* DataFetchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29DE24915948002B8AD3 /* DataFetchedViewController.swift */; };
+		261A29E124915958002B8AD3 /* DataPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29E024915958002B8AD3 /* DataPassViewController.swift */; };
+		261A29E324915DFB002B8AD3 /* DelegationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29E224915DFA002B8AD3 /* DelegationTableViewController.swift */; };
+		261A29E924916216002B8AD3 /* NotificationAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29E824916216002B8AD3 /* NotificationAlertViewController.swift */; };
+		261A29EB24916968002B8AD3 /* BroadcastFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29EA24916968002B8AD3 /* BroadcastFirstViewController.swift */; };
+		261A29EF24916991002B8AD3 /* BroadcastLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29EE24916991002B8AD3 /* BroadcastLastViewController.swift */; };
+		261A29F124916CE3002B8AD3 /* LastDelegateQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29F024916CE3002B8AD3 /* LastDelegateQuestionViewController.swift */; };
+		261A29F324917162002B8AD3 /* BraodcastSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A29F224917161002B8AD3 /* BraodcastSecondViewController.swift */; };
 		2635C75E2459A4B900799AAF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C75D2459A4B900799AAF /* FirstViewController.swift */; };
 		2635C7602459AF1800799AAF /* DataDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C75F2459AF1800799AAF /* DataDetailsViewController.swift */; };
 		2635C7622459AF4E00799AAF /* DataFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C7612459AF4E00799AAF /* DataFormViewController.swift */; };
 		2635C7652459CB9700799AAF /* DataDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635C7632459CB9700799AAF /* DataDetailsCell.swift */; };
 		2635C7662459CB9700799AAF /* DataDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2635C7642459CB9700799AAF /* DataDetailsCell.xib */; };
+		2658C99A248EC54A008AF42C /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658C999248EC54A008AF42C /* GalleryViewController.swift */; };
+		2658C99C248EC56D008AF42C /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658C99B248EC56D008AF42C /* PhotoDetailViewController.swift */; };
+		2658C9A72490C271008AF42C /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658C9A52490C271008AF42C /* GalleryCollectionViewCell.swift */; };
+		2658C9A82490C271008AF42C /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2658C9A62490C271008AF42C /* GalleryCollectionViewCell.xib */; };
+		2658C9AB2490D09D008AF42C /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658C9AA2490D09D008AF42C /* Gallery.swift */; };
+		2658C9AE2490D0E3008AF42C /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658C9AD2490D0E3008AF42C /* ImageViewExtension.swift */; };
 		2661C608241F6A55002B8E84 /* InitialAutoLayout1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */; };
 		2661C60A241F6A70002B8E84 /* CalculatorStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661C609241F6A70002B8E84 /* CalculatorStackView.swift */; };
 		2662494A241F880E00A1A99B /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26624949241F880E00A1A99B /* ScrollViewVC.swift */; };
@@ -51,11 +65,25 @@
 /* Begin PBXFileReference section */
 		260ACF822455F13E00D401CC /* CustomStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackViewController.swift; sourceTree = "<group>"; };
 		26137094241F9989004F37DB /* AutoLayoutImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutImageVC.swift; sourceTree = "<group>"; };
+		261A29DE24915948002B8AD3 /* DataFetchedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetchedViewController.swift; sourceTree = "<group>"; };
+		261A29E024915958002B8AD3 /* DataPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassViewController.swift; sourceTree = "<group>"; };
+		261A29E224915DFA002B8AD3 /* DelegationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationTableViewController.swift; sourceTree = "<group>"; };
+		261A29E824916216002B8AD3 /* NotificationAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAlertViewController.swift; sourceTree = "<group>"; };
+		261A29EA24916968002B8AD3 /* BroadcastFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastFirstViewController.swift; sourceTree = "<group>"; };
+		261A29EE24916991002B8AD3 /* BroadcastLastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastLastViewController.swift; sourceTree = "<group>"; };
+		261A29F024916CE3002B8AD3 /* LastDelegateQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastDelegateQuestionViewController.swift; sourceTree = "<group>"; };
+		261A29F224917161002B8AD3 /* BraodcastSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraodcastSecondViewController.swift; sourceTree = "<group>"; };
 		2635C75D2459A4B900799AAF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2635C75F2459AF1800799AAF /* DataDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailsViewController.swift; sourceTree = "<group>"; };
 		2635C7612459AF4E00799AAF /* DataFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormViewController.swift; sourceTree = "<group>"; };
 		2635C7632459CB9700799AAF /* DataDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailsCell.swift; sourceTree = "<group>"; };
 		2635C7642459CB9700799AAF /* DataDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataDetailsCell.xib; sourceTree = "<group>"; };
+		2658C999248EC54A008AF42C /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		2658C99B248EC56D008AF42C /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		2658C9A52490C271008AF42C /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2658C9A62490C271008AF42C /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		2658C9AA2490D09D008AF42C /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		2658C9AD2490D0E3008AF42C /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		2661C607241F6A55002B8E84 /* InitialAutoLayout1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialAutoLayout1VC.swift; sourceTree = "<group>"; };
 		2661C609241F6A70002B8E84 /* CalculatorStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStackView.swift; sourceTree = "<group>"; };
 		26624949241F880E00A1A99B /* ScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
@@ -103,6 +131,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261A29DD249152F8002B8AD3 /* Notification and Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				261A29E224915DFA002B8AD3 /* DelegationTableViewController.swift */,
+				261A29E424916181002B8AD3 /* Question1 */,
+				261A29E52491618A002B8AD3 /* Question2 */,
+				261A29E624916194002B8AD3 /* Question3 */,
+				261A29E72491619C002B8AD3 /* Question4 and 5 */,
+			);
+			path = "Notification and Delegation";
+			sourceTree = "<group>";
+		};
+		261A29E424916181002B8AD3 /* Question1 */ = {
+			isa = PBXGroup;
+			children = (
+				261A29DE24915948002B8AD3 /* DataFetchedViewController.swift */,
+				261A29E024915958002B8AD3 /* DataPassViewController.swift */,
+			);
+			path = Question1;
+			sourceTree = "<group>";
+		};
+		261A29E52491618A002B8AD3 /* Question2 */ = {
+			isa = PBXGroup;
+			children = (
+				261A29EA24916968002B8AD3 /* BroadcastFirstViewController.swift */,
+				261A29F224917161002B8AD3 /* BraodcastSecondViewController.swift */,
+				261A29EE24916991002B8AD3 /* BroadcastLastViewController.swift */,
+			);
+			path = Question2;
+			sourceTree = "<group>";
+		};
+		261A29E624916194002B8AD3 /* Question3 */ = {
+			isa = PBXGroup;
+			children = (
+				261A29E824916216002B8AD3 /* NotificationAlertViewController.swift */,
+			);
+			path = Question3;
+			sourceTree = "<group>";
+		};
+		261A29E72491619C002B8AD3 /* Question4 and 5 */ = {
+			isa = PBXGroup;
+			children = (
+				261A29F024916CE3002B8AD3 /* LastDelegateQuestionViewController.swift */,
+			);
+			path = "Question4 and 5";
+			sourceTree = "<group>";
+		};
+		2658C998248EC4D9008AF42C /* Gallery Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				2658C999248EC54A008AF42C /* GalleryViewController.swift */,
+				2658C99B248EC56D008AF42C /* PhotoDetailViewController.swift */,
+				2658C9AC2490D0CF008AF42C /* Extension */,
+				2658C9A92490D086008AF42C /* Modal */,
+				2658C9A42490C238008AF42C /* Custom CollectionViewCell */,
+			);
+			path = "Gallery Assignment";
+			sourceTree = "<group>";
+		};
+		2658C9A42490C238008AF42C /* Custom CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2658C9A52490C271008AF42C /* GalleryCollectionViewCell.swift */,
+				2658C9A62490C271008AF42C /* GalleryCollectionViewCell.xib */,
+			);
+			path = "Custom CollectionViewCell";
+			sourceTree = "<group>";
+		};
+		2658C9A92490D086008AF42C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2658C9AA2490D09D008AF42C /* Gallery.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		2658C9AC2490D0CF008AF42C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2658C9AD2490D0E3008AF42C /* ImageViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		2661C60B241F6A7D002B8E84 /* Auto Layout 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +308,8 @@
 				26FB1FEB2418FCB10096EEEC /* SizeClassesAndAutoLayout */,
 				266863E9241A3D3500DCE794 /* UIElements Scroll View */,
 				2661C60B241F6A7D002B8E84 /* Auto Layout 1 */,
+				261A29DD249152F8002B8AD3 /* Notification and Delegation */,
+				2658C998248EC4D9008AF42C /* Gallery Assignment */,
 				26B143DC240C0D2200E2FF45 /* Assets.xcassets */,
 				26B143DE240C0D2200E2FF45 /* LaunchScreen.storyboard */,
 				26B143E1240C0D2200E2FF45 /* Info.plist */,
@@ -277,6 +391,7 @@
 				266863F3241A3FA000DCE794 /* CustomCollectionViewCell.xib in Resources */,
 				26B143E0240C0D2200E2FF45 /* LaunchScreen.storyboard in Resources */,
 				26B143DD240C0D2200E2FF45 /* Assets.xcassets in Resources */,
+				2658C9A82490C271008AF42C /* GalleryCollectionViewCell.xib in Resources */,
 				266863EF241A3F7A00DCE794 /* CustomTableViewCell.xib in Resources */,
 				26B143DB240C0D1F00E2FF45 /* Main.storyboard in Resources */,
 			);
@@ -289,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2658C99A248EC54A008AF42C /* GalleryViewController.swift in Sources */,
 				26A0C93424194A94003DF561 /* EmojiViewController.swift in Sources */,
 				2635C7622459AF4E00799AAF /* DataFormViewController.swift in Sources */,
 				26137095241F9989004F37DB /* AutoLayoutImageVC.swift in Sources */,
@@ -300,22 +416,34 @@
 				2661C60A241F6A70002B8E84 /* CalculatorStackView.swift in Sources */,
 				26A6981724156E6E005E1392 /* SecondPageController.swift in Sources */,
 				269B655A24111A530003AD84 /* TabBarProgramatically2.swift in Sources */,
+				2658C9AE2490D0E3008AF42C /* ImageViewExtension.swift in Sources */,
 				2635C75E2459A4B900799AAF /* FirstViewController.swift in Sources */,
 				260ACF832455F13E00D401CC /* CustomStackViewController.swift in Sources */,
+				261A29E124915958002B8AD3 /* DataPassViewController.swift in Sources */,
+				261A29F324917162002B8AD3 /* BraodcastSecondViewController.swift in Sources */,
 				2661C608241F6A55002B8E84 /* InitialAutoLayout1VC.swift in Sources */,
+				261A29E324915DFB002B8AD3 /* DelegationTableViewController.swift in Sources */,
 				26A6982324163EBA005E1392 /* TableCellContent.swift in Sources */,
+				261A29EB24916968002B8AD3 /* BroadcastFirstViewController.swift in Sources */,
 				26A6981524156E4D005E1392 /* FirstPageController.swift in Sources */,
 				2635C7652459CB9700799AAF /* DataDetailsCell.swift in Sources */,
 				26D87D72240C392A00735453 /* SegmentControlVC.swift in Sources */,
 				26A0C93624194E61003DF561 /* SizeClassesViewController.swift in Sources */,
 				2635C7602459AF1800799AAF /* DataDetailsViewController.swift in Sources */,
+				261A29F124916CE3002B8AD3 /* LastDelegateQuestionViewController.swift in Sources */,
+				261A29E924916216002B8AD3 /* NotificationAlertViewController.swift in Sources */,
 				26D87D6E240C38AE00735453 /* SignUpVC.swift in Sources */,
 				26A6981D24156EBA005E1392 /* FifthPageController.swift in Sources */,
 				266863EB241A3ED200DCE794 /* TableVCForCollectionCell.swift in Sources */,
 				269B655C241134E00003AD84 /* TabBarProgrammatically.swift in Sources */,
+				261A29DF24915948002B8AD3 /* DataFetchedViewController.swift in Sources */,
 				26A6981B24156EA1005E1392 /* FourthPageController.swift in Sources */,
+				2658C9A72490C271008AF42C /* GalleryCollectionViewCell.swift in Sources */,
+				2658C99C248EC56D008AF42C /* PhotoDetailViewController.swift in Sources */,
+				2658C9AB2490D09D008AF42C /* Gallery.swift in Sources */,
 				266863F2241A3FA000DCE794 /* CustomCollectionViewCell.swift in Sources */,
 				2662494A241F880E00A1A99B /* ScrollViewVC.swift in Sources */,
+				261A29EF24916991002B8AD3 /* BroadcastLastViewController.swift in Sources */,
 				26D87D70240C38FE00735453 /* HomeVC.swift in Sources */,
 				26B143D8240C0D1F00E2FF45 /* ViewController.swift in Sources */,
 				26B143D4240C0D1F00E2FF45 /* AppDelegate.swift in Sources */,

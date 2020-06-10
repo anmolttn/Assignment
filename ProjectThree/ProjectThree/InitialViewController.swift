@@ -14,7 +14,7 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     //array that show the content in table cell
-    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout","UI Elments Scroll View","Auto Layout 1"]
+    var tableArray = ["UI Elements","UIkit Nested Elements","Size Classes and Auto Layout","UI Elments Scroll View","Auto Layout 1","Gallery Assignment","Notification and Delegate"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +41,7 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     //set the height of the row of table cell
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        //return UITableView.automaticDimension
         return 80
     }
     
@@ -65,6 +66,14 @@ class InitialViewController: UIViewController,UITableViewDelegate,UITableViewDat
         }
         if indexPath.row == 4{
         let vc = storyBoard.instantiateViewController(identifier: "InitialAutoLayout1VC")
+        self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if indexPath.row == 5{
+        let vc = storyBoard.instantiateViewController(identifier: "GalleryViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if indexPath.row == 6{
+        let vc = storyBoard.instantiateViewController(identifier: "DelegationTableViewController")
         self.navigationController?.pushViewController(vc, animated: true)
         }
     }
